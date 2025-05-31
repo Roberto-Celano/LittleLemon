@@ -1,13 +1,15 @@
-# Ignora virtualenv e compilati Python
-__pycache__/
+# Python
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
-*.sqlite3
-*.py[cod]
 
-# Workspace, environment e script locali
-workspace/
-Scripts/
+# SQLite
+*.sqlite3
+*.db
+
+# Virtualenv
 .env
-*.log
+.vscode/
+workspace/lib/
+workspace/Scripts/
