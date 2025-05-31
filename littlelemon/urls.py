@@ -19,6 +19,7 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from restaurant.views import BookingViewSet
 from rest_framework.authtoken.views import obtain_auth_token
+from restaurant import views
 
 
 router = DefaultRouter()
@@ -32,4 +33,6 @@ urlpatterns = [
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
     path('api-token-auth/', obtain_auth_token),
+    path('api/menu-items/', views.MenuItemsView.as_view(), name='menu_items'),
+    path('api/menu-items/<int:pk>/', views.SingleMenuItemView.as_view(), name='single_menu_item'),
 ]
