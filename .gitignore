@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.sqlite3
+*.py[cod]
 
 # Workspace, environment e script locali
 workspace/
