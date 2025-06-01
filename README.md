@@ -54,3 +54,12 @@ python manage.py runserver
 - Il progetto è pensato per essere eseguito in locale.
   
 - È consigliato testare l'app con MySQL correttamente configurato.
+
+---
+
+## 👨‍💻 Autore
+
+**Roberto Celano**  
+Meta Certified Back-End Developer  
+• [LinkedIn](https://www.linkedin.com/in/roberto-celano) 
+• [robertocelano.dev](https://robertocelano.dev)
